@@ -1,0 +1,170 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: white;
+}
+/* -----------------------header style start--------------------- */
+.top-area {
+    display: flex;
+    justify-content: center;
+    
+    height: 500px;
+    background-color: #2D25A0;
+}
+.top-header {
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.top-header h2 {
+    font-size: 64px;
+    color: #FFFFFF;
+}
+.button {
+    width: 168px;
+    height: 44px;
+    background-color: #E02C6D;
+    border-radius: 4px;
+   
+}
+.button:hover{
+    cursor: pointer;
+    font-weight: bold;
+    background-color: salmon;
+}
+.top-header a{
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.banner img {
+    width: 556px;
+    margin-top: 25px;
+    margin-right: 80px;
+}
+/* ---------------------article Area--------------- */
+.blogs {
+    width:1050px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    margin-left: 250px;
+}
+.blog {
+    width: 300px;
+    height: 426px;
+    margin-top: 50px;
+    background: #fdfafa;
+    box-shadow: 5px 5px 5px rgb(207, 206, 206);
+    margin-bottom: 10px;
+}
+.thumbnail img {
+    width:280px;
+    border-radius: 5px;
+}
+.player-text h3 {
+    font-size: 30px;
+    margin: 10px 0px;
+   
+}
+.player-text p {
+    font-size: 16px;
+}
+.top-player-text {
+    text-align: center;
+    margin-top: 15px;
+    padding: 15px;
+}
+#qatar-worldcup{
+    background-color: rgb(195, 216, 245);
+    margin-top: 50px;
+}
+#world-cup-img img{
+    height: 80%;
+
+}
+
+/* -----------------------footer style start------------------- */
+.footer-area {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+.footer{
+    height: 213px;
+    width: 484px;
+}
+.logo {
+    height: 110px;
+    width: 484px;
+}
+.icon{
+    display: flex;
+    justify-content:center;
+    
+   
+}
+.icon img{
+    height: 32px;
+    width: 32px;
+    margin:10px;
+}
+.copyright{
+    text-align: center;
+}
+
+/*----------
+----------
+ Media-quary-
+ -----------
+ --------- */ 
+@media screen and (max-width:688px){
+    body {
+    margin: 0;
+    padding: 0;
+}
+/* -----------------------header style start------------------ */
+.container {
+    display: grid;
+    margin-left: 550px;}
+.top-area {
+    width: 100%;
+    height: 650px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 60px;
+    align-items: center;
+    justify-items: center;
+}
+.top-header{
+    width: 278px;
+    height: 138px;
+    margin-top: -20px;
+    margin-left: 16px;
+}
+.top-header h2 {
+    font-size: 36px;
+}
+.banner img {
+    margin-left: 35px;
+    width: 329px;
+}
+
+.blog {
+    padding: 15px;
+    width: 250px;
+    margin-right: 22px;
+}
+.thumbnail img {
+    padding: 15px;
+    width: 240px;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.footer-area{
+    margin-top: 50px;
+    margin-left: 700px
+}
+}
