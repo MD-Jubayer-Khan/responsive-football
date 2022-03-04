@@ -76,12 +76,15 @@ body{
     padding: 15px;
 }
 #qatar-worldcup{
-    background-color: rgb(195, 216, 245);
+    background-color: rgb(246, 247, 234);
     margin-top: 50px;
 }
 #world-cup-img img{
     height: 80%;
 
+}
+#qatar-worldcup-text{
+    color: #2D25A0;
 }
 
 /* -----------------------footer style start------------------- */
